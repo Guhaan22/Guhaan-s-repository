@@ -28,5 +28,10 @@ function draw() {
   // Challenge 6: Add some colours to the drawings in the above challenges
 
   // Challenge 7: Create a funny Pokemon using the functions you have learned
-  fill(255, 255, 0);
+  fill(255, 255, 0);  
+  ellipse(300, 300, 150, 150); // Body
+  fill(0, 0, 0);
+  ellipse(270, 280, 30, 30); // Left eye
+  ellipse(330, 280, 30, 30); // Right eye
+  
 }

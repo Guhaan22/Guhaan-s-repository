@@ -40,5 +40,9 @@ function draw() {
   fill(255, 0, 0);
   ellipse(250, 250, 30, 30); // Left cheek
   ellipse(350, 250, 30, 30); // Right cheek
+  
+  // Challenge 8: Create a funny face using the functions you have learned
+  fill(255, 220, 185);
+  ellipse(500, 200, 200, 200); // Face
 
 }

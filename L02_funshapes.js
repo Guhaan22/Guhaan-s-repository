@@ -1,10 +1,15 @@
 /*
 Task 1: Add the setup() function
 Task 2: Add the draw() function
+Task 3: Create a traffic light using the ellipse() function
+Task 4: Create a funny Pokemon using the functions you have learned
+Task 5: Create a funny face using the functions you have learned
 */
 
 function draw() {
-  // Challenge 1: An eye using ellipse() function\
+  // Challenge 1: An eye using ellipse() function
+  fill(255);
+  ellipse(300, 200, 100, 100);
 
   fill(255, 0, 0);
   ellipse(300, 200, 200, 200);

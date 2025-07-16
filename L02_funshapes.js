@@ -38,8 +38,11 @@ function draw() {
   triangle(250, 100, 350, 100, 300, 50);
   fill(150, 150, 150);
   rect(250, 100, 100, 200);
-  // Challenge 5: A square face using quad() function
-
+  // Challenge 7: A square face using quad() function
+  fill(255, 220, 185);
+  quad(200, 200, 400, 200, 400, 400, 200, 400);
+  fill(0, 0, 0);
+  ellipse(250, 250, 30, 30); // Left eye
   // Challenge 6: Add some colours to the drawings in the above challenges
 
   // Challenge 7: Create a funny Pokemon using the functions you have learned

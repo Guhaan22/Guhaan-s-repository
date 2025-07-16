@@ -52,5 +52,7 @@ function draw() {
   fill(255, 255, 0);
   ellipse(500, 250, 100, 50); // Nose
   fill(0, 0, 255);
-  
+  ellipse(450, 150, 30, 30); // Left ear
+  ellipse(550, 150, 30, 30); // Right ear
+   
 }

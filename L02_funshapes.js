@@ -8,7 +8,7 @@ function setup() {
 }
 function draw() {
  fill(119, 136, 153)
- quad(x1, y1, x2, y2, x3, y3, x4, y4)
+ quad(100, y1, x2, y2, x3, y3, x4, y4)
 
 
   

@@ -7,10 +7,11 @@ function setup() {
 
 }
 function draw() {
+ 
  rect(0, 0, 150, 190,)
  fill(255, 99, 71)
  rect(300,300,100,100)
- 
+
 
   
 }

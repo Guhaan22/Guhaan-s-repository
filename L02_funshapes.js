@@ -8,7 +8,7 @@ function setup() {
 }
 function draw() {
  fill(119, 136, 153)
- circle(300,200,150)
+ triangle(300,200,150,)
 
 
   

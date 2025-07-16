@@ -1,5 +1,6 @@
 /*
 Task 1: Add the setup() function
+Task 2: Add the draw() function
 */
 
 function draw() {

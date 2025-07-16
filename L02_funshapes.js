@@ -44,5 +44,7 @@ function draw() {
   // Challenge 8: Create a funny face using the functions you have learned
   fill(255, 220, 185);
   ellipse(500, 200, 200, 200); // Face
-  
+  fill(0, 0, 0);
+  ellipse(470, 180, 30, 30); // Left eye
+  ellipse(530, 180, 30, 30); // Right eye
 }

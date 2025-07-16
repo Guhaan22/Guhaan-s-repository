@@ -8,6 +8,7 @@ function setup() {
 }
 function draw() {
  rect(0, 0, 150, 190,)
+ 
  rect(300,300,100,100)
   
 }

@@ -9,6 +9,7 @@ function draw() {
   // Challenge 1: An eye using ellipse() function
   fill("hotpink");
   ellipse(300, 200, 100, 100);
+  
 
   fill(255, 0, 0);
   ellipse(300, 200, 200, 200);

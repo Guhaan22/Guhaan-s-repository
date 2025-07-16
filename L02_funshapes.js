@@ -70,6 +70,13 @@ function draw() {
   fill(0, 0, 0);
   ellipse(250, 250, 30, 30); // Left eye
   ellipse(350, 250, 30, 30); // Right eye
+  fill(255, 0, 0);
+  ellipse(300, 300, 50, 20); // Mouth
+  fill(255, 255, 0);
+  ellipse(300, 350, 100, 50); // Belly
+  fill(255, 0, 0);
+  ellipse(250, 250, 30, 30); // Left cheek
+  ellipse(350, 250, 30, 30); // Right cheek
   
   // Challenge 6: Add some colours to the drawings in the above challenges
 

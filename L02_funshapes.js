@@ -42,6 +42,9 @@ function draw() {
   fill(255, 220, 185);
   quad(200, 200, 400, 200, 400, 400
 , 200, 400);
+  fill(0, 0, 0);
+  ellipse(250, 250, 30, 30); // Left eye
+  
  
   // Challenge 8: Create a funny face using the functions you have learned
   fill(255, 220, 185);

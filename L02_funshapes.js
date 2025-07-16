@@ -23,11 +23,11 @@ function draw() {
   fill(255, 0, 0);
   ellipse(300, 200, 200, 200);
 
-  // Challenge 2: A face using circle() function
+  // Challenge 4: A face using circle() function
   fill(255, 220, 185);
   ellipse(300, 200, 200, 200);
 
-  // Challenge 3: A house using rect() function
+  // Challenge 5: A house using rect() function
   fill(150, 75, 0);
   rect(200, 200, 200, 200);
   fill(255, 0, 0);

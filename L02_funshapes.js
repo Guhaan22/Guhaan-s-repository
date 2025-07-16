@@ -46,7 +46,17 @@ function draw() {
   ellipse(350, 250, 30, 30); // Right eye
   fill(255, 0, 0);
   ellipse(300, 300, 50, 20); // Mouth
-  
+  fill(255, 255, 0);
+  ellipse(300, 350, 100, 50); // Belly
+  fill(255, 0, 0);
+  ellipse(250, 250, 30, 30); // Left cheek
+  ellipse(350, 250, 30, 30); // Right cheek
+  // Challenge 8: Create a funny face using the functions you have learned
+  fill(255, 220, 185);
+  ellipse(500, 200, 200, 200); // Face
+  fill(0, 0, 0);
+  ellipse(470, 180, 30, 30); // Left eye
+    
   // Challenge 6: Add some colours to the drawings in the above challenges
 
   // Challenge 7: Create a funny Pokemon using the functions you have learned

@@ -3,7 +3,7 @@ Task 1: Add the setup() function
 */
 function setup() {
   createCanvas(600, 400);
-  background(220);
+  background(50);
 }
 function draw() {
   // Challenge 1: An eye using ellipse() function
@@ -99,7 +99,7 @@ function draw() {
   ellipse(300, 200, 50, 50);
   fill(0, 0, 0);
   ellipse(300, 200, 25, 25); // Center of the eye
-  
+
 
   // Challenge 7: Create a funny Pokemon using the functions you have learned
   fill(255, 255, 0);  

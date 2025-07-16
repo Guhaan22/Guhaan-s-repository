@@ -46,6 +46,14 @@ function draw() {
   ellipse(270, 280, 30, 30); // Left eye
   ellipse(330, 280, 30, 30); // Right eye
   fill(255, 0, 0);
+  ellipse(300, 320, 50, 20); // Mouth
+  // Recap 8: A square face using quad() function
+  fill(255, 220, 185);
+  quad(200, 200, 400, 200, 400, 400, 200, 400);
+  fill(0, 0, 0);
+  ellipse(250, 250, 30, 30); // Left eye
+  ellipse(350, 250, 30, 30); // Right eye
+  fill(255, 0, 0);  
 
   // Task 1: Colour Gradient
 

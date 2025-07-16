@@ -7,6 +7,6 @@ function setup() {
 
 }
 function draw() {
- rect()
+ rect(300, 300, 1)
   
 }

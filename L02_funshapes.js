@@ -33,7 +33,7 @@ function draw() {
   fill(255, 0, 0);
   triangle(200, 200, 400, 200, 300, 100);
 
-  // Challenge 4: A rocketship using triangle() function
+  // Challenge 6: A rocketship using triangle() function
   fill(200, 0, 0);
   triangle(250, 100, 350, 100, 300, 50);
   fill(150, 150, 150);

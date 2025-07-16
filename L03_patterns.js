@@ -13,7 +13,15 @@ function draw() {
   ellipse(300, 200, 100, 100);
   fill("green");
   ellipse(300, 300, 100, 100);
-  
+  // Recap 3: A face using ellipse() function
+  fill(255, 220, 185);
+  ellipse(300, 200, 200, 200);
+  // Recap 4: A house using rect() function
+  fill(150, 75, 0);
+  rect(200, 200, 200, 200);
+  fill(255, 0, 0);
+  triangle(200, 200, 400, 200, 300, 100
+  );
 
   // Task 1: Colour Gradient
 

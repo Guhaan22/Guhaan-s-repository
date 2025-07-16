@@ -7,7 +7,7 @@ function setup() {
 
 }
 function draw() {
- Circle()
+ Circle(300,300,150)
 
 
   

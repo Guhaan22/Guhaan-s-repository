@@ -47,4 +47,10 @@ function draw() {
   fill(0, 0, 0);
   ellipse(470, 180, 30, 30); // Left eye
   ellipse(530, 180, 30, 30); // Right eye
+  fill(255, 0, 0);
+  ellipse(500, 220, 50, 20); // Mouth
+  fill(255, 255, 0);
+  ellipse(500, 250, 100, 50); // Nose
+  fill(0, 0, 255);
+  
 }

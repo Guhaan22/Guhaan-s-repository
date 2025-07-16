@@ -8,6 +8,12 @@ function draw() {
   // Recap 1: Repeating Circles
   fill(255, 0, 0);
   ellipse(300, 100, 100, 100);
+  // Recap 2: Traffic Light
+  fill("yellow");
+  ellipse(300, 200, 100, 100);
+  fill("green");
+  ellipse(300, 300, 100, 100);
+  
 
   // Task 1: Colour Gradient
 

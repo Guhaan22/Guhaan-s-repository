@@ -29,6 +29,23 @@ function draw() {
   // Recap 6: A square face using quad() function
   fill(255, 220, 185);
   quad(200, 200, 400, 200, 400, 400, 200, 400);
+  fill(0, 0, 0);
+  ellipse(250, 250, 30, 30); // Left eye
+  ellipse(350, 250, 30, 30); // Right eye
+  fill(255, 0, 0);
+  ellipse(300, 300, 50, 20); // Mouth
+  fill(255, 255, 0);
+  ellipse(300, 350, 100, 50); // Belly
+  fill(255, 0, 0);
+  ellipse(250, 250, 30, 30); // Left cheek
+  ellipse(350, 250, 30, 30); // Right cheek
+  // Recap 7: Create a funny Pokemon using the functions you have learned
+  fill(255, 255, 0);
+  ellipse(300, 300, 150, 150); // Body
+  fill(0, 0, 0);
+  ellipse(270, 280, 30, 30); // Left eye
+  ellipse(330, 280, 30, 30); // Right eye
+  fill(255, 0, 0);
 
   // Task 1: Colour Gradient
 

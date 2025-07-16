@@ -20,8 +20,10 @@ function draw() {
   fill(150, 75, 0);
   rect(200, 200, 200, 200);
   fill(255, 0, 0);
-  triangle(200, 200, 400, 200, 300, 100
-  );
+  triangle(200, 200, 400, 200, 300, 100);
+  // Recap 5: A rocketship using triangle() function
+  fill(200, 0, 0);
+  triangle(250, 100, 350, 100, 300, 50);
 
   // Task 1: Colour Gradient
 

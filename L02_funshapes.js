@@ -8,7 +8,7 @@ function setup() {
 }
 function draw() {
  fill(119, 136, 153)
- triangle(300,200,500,400,500,200)
+ quad(x1, y1, x2, y2, x3, y3, x4, y4)
 
 
   

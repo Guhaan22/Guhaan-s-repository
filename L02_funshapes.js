@@ -44,5 +44,5 @@ function draw() {
   // Challenge 8: Create a funny face using the functions you have learned
   fill(255, 220, 185);
   ellipse(500, 200, 200, 200); // Face
-
+  
 }

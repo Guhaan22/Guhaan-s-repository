@@ -77,8 +77,9 @@ function draw() {
   fill(255, 0, 0);
   ellipse(250, 250, 30, 30); // Left cheek
   ellipse(350, 250, 30, 30); // Right cheek
-  
+
   // Challenge 6: Add some colours to the drawings in the above challenges
+  
 
   // Challenge 7: Create a funny Pokemon using the functions you have learned
   fill(255, 255, 0);  

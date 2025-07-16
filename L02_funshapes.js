@@ -27,5 +27,6 @@ function draw() {
 
   // Challenge 6: Add some colours to the drawings in the above challenges
 
-  // Challenge 7: Create a funny Pokemon
+  // Challenge 7: Create a funny Pokemon using the functions you have learned
+  fill(255, 255, 0);
 }

@@ -24,6 +24,11 @@ function draw() {
   // Recap 5: A rocketship using triangle() function
   fill(200, 0, 0);
   triangle(250, 100, 350, 100, 300, 50);
+  fill(150, 150, 150);
+  rect(250, 100, 100, 200);
+  // Recap 6: A square face using quad() function
+  fill(255, 220, 185);
+  quad(200, 200, 400, 200, 400, 400, 200, 400);
 
   // Task 1: Colour Gradient
 

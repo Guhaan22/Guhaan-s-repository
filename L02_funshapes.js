@@ -54,5 +54,5 @@ function draw() {
   fill(0, 0, 255);
   ellipse(450, 150, 30, 30); // Left ear
   ellipse(550, 150, 30, 30); // Right ear
-   
+  
 }

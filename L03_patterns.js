@@ -73,9 +73,27 @@ function draw() {
   fill(255, 0, 0);
   ellipse(250, 250, 30, 30); // Left cheek
   ellipse(350, 250, 30, 30); // Right cheek
-    
+  // Recap 10: A funny face using the functions you have learned
+  fill(255, 220, 185);
+  ellipse(300, 200, 200, 200); // Face
+  fill(0, 0, 0);
+  ellipse(270, 180, 30, 30); // Left eye
+  ellipse(330, 180, 30, 30); // Right eye
+  fill(255, 0, 0);
+  ellipse(300, 220, 50, 20); // Mouth
+  fill(255, 255, 0);
+  ellipse(300, 250, 100, 50); // Nose
+  fill(0, 0, 255);
+  ellipse(250, 150, 30, 30); // Left ear
+  ellipse(350, 150, 30, 30); // Right ear
+  
 
   // Task 1: Colour Gradient
+  for (let i = 0; i < width; i += 10) {
+    let c = map(i, 0, width, 0, 255);
+    fill(c, 100, 150);
+    rect(i, height - 50, 10, 50);
+  }
 
   // Task 2: Colour Loop
 

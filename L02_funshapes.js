@@ -4,8 +4,7 @@ Task 1: Add the setup() function
 function setup() {
   createCanvas(600, 400);
   background(50);// 0 to 255 gray tone
-  noLoop(); // Stops continuous drawing
-  
+
 }
 function draw() {
   // Challenge 1: An eye using ellipse() function

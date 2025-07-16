@@ -19,7 +19,9 @@ function draw() {
   triangle(200, 200, 400, 200, 300, 100);
 
   // Challenge 4: A rocketship using triangle() function
-
+  fill(200, 0, 0);
+  triangle(250, 100, 350, 100, 300, 50);
+  
   // Challenge 5: A square face using quad() function
 
   // Challenge 6: Add some colours to the drawings in the above challenges

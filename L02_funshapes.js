@@ -10,6 +10,18 @@ function draw() {
  fill(119, 136, 153)
  circle(200,200,150)
 
-
+  fill(255, 255, 0);
+  ellipse(300, 300, 150, 150); // Body
+  fill(0, 0, 0);
+  ellipse(270, 280, 30, 30); // Left eye
+  ellipse(330, 280, 30, 30); // Right eye
+  fill(255, 0, 0);
+  ellipse(300, 320, 50, 20); // Mouth
+  fill(0, 255, 0);
+  ellipse(300, 350, 100, 50); // Belly
+  fill(255, 0, 0);
+  ellipse(250, 250, 30, 30); // Left cheek
+  ellipse(350, 250, 30, 30); // Right cheek
+  
   
 }

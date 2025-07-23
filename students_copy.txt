@@ -337,7 +337,7 @@ Circle: circle(x, y, d)
 for(let i =1; i < 11; i++)
 let colorValue = 0; // start from black
 function draw() {}
-  fill colorValue
+  fill (color)
 
 
 

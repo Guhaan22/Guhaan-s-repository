@@ -14,7 +14,7 @@ let posx = 75;
 
   // recap 1 repeating circles using for loop
   for (let i = 0; i < 4; i++) {
-    fill (0, 1*50, 200)
+    fill (0, 1*50, 200);
     circle(posx + i * 150, 200, diameter);
     posx = posx + diameter + 10 // calculate  the next position of x
   }

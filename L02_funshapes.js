@@ -7,8 +7,7 @@ function setup() {
 
 }
 function draw() {
- fill(119, 136, 153)
- circle(200,200,150)
+ 
 
   fill(255, 255, 0);
   ellipse(300, 300, 150, 150); // Body

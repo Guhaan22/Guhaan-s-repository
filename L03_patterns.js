@@ -11,3 +11,4 @@ function draw() {
 let diameter = 80;
 let posx = 75;
 
+// recap 1 repeating circles

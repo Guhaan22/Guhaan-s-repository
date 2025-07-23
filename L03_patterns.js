@@ -9,4 +9,5 @@ function draw() {
  circle(525, 200, 150);
 } 
 let diameter = 80;
-let x = 75;
+let posx = 75;
+

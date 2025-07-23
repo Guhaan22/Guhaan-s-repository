@@ -6,6 +6,6 @@ function setup() {
 function draw() {
  circle(75, 200, 150)
  circle(225, 200, 150)
- circle(375, 200, 200)
- circle(525, 200, 200)
+ circle(375, 200, 150)
+ circle(525, 200, 150)
 }

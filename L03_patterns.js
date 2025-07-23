@@ -7,4 +7,5 @@ function draw() {
  circle(225, 200, 150);
  circle(375, 200, 150);
  circle(525, 200, 150);
-}
+} 
+let diameter

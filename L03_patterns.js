@@ -14,4 +14,5 @@ let posx = 75;
 // recap 1 repeating circles using for loop
 for (let i = 0; i < 4; i++) {
   circle(posx + i * 150, 200, diameter);
+  po
 }

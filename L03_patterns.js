@@ -12,10 +12,11 @@ function draw() {
  let diameter = 80;
 let posx = 75;
 
-  // recap 1 repeating circles using for loop
-  for (let i = 0; i < 4; i++) {
-    fill (0, i*50, 200);
-    circle(posx , 200, diameter);
-    posx = posx + diameter + 10 // calculate  the next position of x
-  }
-} 
+function draw() {
+  fill(colorValue%2)* 255 );
+  circle(250, 250, 200);
+  // colorValue = colorValue  +1;
+  colorValue++ // shorthand
+  for (let i = 0; i < 8; i++){}
+
+}

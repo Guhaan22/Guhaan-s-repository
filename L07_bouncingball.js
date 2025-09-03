@@ -1,6 +1,7 @@
 // write your codes here
 let xpos = 200
 
+let ballX
 function setup() {
     createCanvas(600, 400);
     background("skyblue"); // 220

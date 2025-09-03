@@ -343,11 +343,24 @@ function draw() {}
 
 
 
+== equal
+=== strictly equal
+!= not equal
+!== strictly not equal
+< less than
+<= less than or equal to
+> greater than
+>= greater than or equal to
+Q1 Draw three shapes triangle square and circle
+formula to draw triangle triangle(x1, y1, x2, y2, x3, y3)
 
 
+let xpos = 50
+let colorval = 0
 
-
-
+for (let count=0; count<5; count++) {
+  fill(colorval);
+  rect(xpos,)
 
 
 
@@ -877,7 +890,59 @@ if (key === 'c') {
   // circle diameter: 200
   circle(width/2, height/2, 200)
   keyCode
+// forever block
+function draw() {
+  background(200); // clear the drawing paper
+
+textSize(48); // font Size
+   // text     x y
+text(key,    250, 70)
+text(keyCode, 250, 140)
+}
+keyIsDown()
+let xpos = 50
+let ypos = 50
+
+
+function draw() {
+  background(200); // clear the drawing paper
+  //noStroke()
+  
 
 
 
 
+
+  if (keyIsDown(RIGHT_ARROW)){
+    xpos = xpos +1;
+    
+  }
+  fill(255, 0, 0); // red
+  circle(xpos, height/2, 80); // width, height, of the canvas
+
+  if(keyIsDown( RIGHT_ARROW)){
+    xpos = xpos +3;
+  }
+  if(keyIsDown( LEFT_ARROW)){
+    xpos = xpos -3;
+  }
+  if(keyIsDown( UP_ARROW)){
+    xpos = xpos -3;
+  }
+  if(keyIsDown( DOWN_ARROW)){
+    xpos = xpos +3;
+  }
+  constrain(value, minimum, maximum)
+
+  ypos = constrain(ypos, 0, height)
+  preload()
+
+let soundEffect, bgMusic, staticImage
+
+function preload() {
+  // load any images or sounds Here
+  soundEffect = loadSound('assets/pop.mp3')
+  bgMusic = loadSound('asseets/bossaNova.mp3)
+
+  staticImage = loadImage('assets/pico-a.png');
+}

@@ -16,4 +16,6 @@ function setup() {
 // 
 
 // task 1
-f
+function draw() {
+    
+}

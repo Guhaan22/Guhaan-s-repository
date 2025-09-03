@@ -17,5 +17,5 @@ function setup() {
 
 // task 1
 function draw() {
-    
+    background("steelblue")
 }

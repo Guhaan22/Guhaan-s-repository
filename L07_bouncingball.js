@@ -21,5 +21,5 @@ function draw() {
     noStroke()
     circle(ballX, ballY, ballSize)
 
-    ballX = ballX + ballS
+    ballX = ballX + ballSpeedX
 }

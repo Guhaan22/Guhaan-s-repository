@@ -8,5 +8,5 @@ function setup() {
 // forever block
 function draw() {
     // erase
-    // background("skyblue"); 
+    // background("skyblue"); // 220
 }

@@ -25,6 +25,6 @@ function draw() {
     ballY = ballY + ballSpeedY
 
     if ( ballX > width ){
-        ballSpeedX = ball
+        ballSpeedX = ballSpeedX *1
     }
 }

@@ -11,6 +11,6 @@ function setup() {
 function draw() {
     // erase
      background("skyblue"); // 220
-     circle(xpos,)
+     circle(xpos, height/2)
 
 }

@@ -3,7 +3,7 @@ let xpos = 200
 
 let ballX = 200;
 let ballY = 300;
-
+let ball
 function setup() {
     createCanvas(600, 400);
     background("skyblue"); // 220

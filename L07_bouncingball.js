@@ -22,5 +22,5 @@ function draw() {
     circle(ballX, ballY, ballSize)
 
     ballX = ballX + ballSpeedX;
-    ballY = ballY + ball
+    ballY = ballY + ballSpeedY
 }

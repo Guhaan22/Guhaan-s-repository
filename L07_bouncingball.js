@@ -18,6 +18,7 @@ if (keyIsDown(LEFT_ARROW)) {// RIGHT_ARROW
 }
 if(keyIsDown(LEFT_ARROW)) {
     xpos = 25;
+    
 }
 if (keyIsDown(RIGHT_ARROW)) {// RIGHT_ARROW
     xpos = xpos +5;

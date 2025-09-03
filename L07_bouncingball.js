@@ -19,5 +19,5 @@ function setup() {
 function draw() {
     background("steelblue")
     noStroke()
-    circle(B)
+    circle(ballX, ballY, )
 }

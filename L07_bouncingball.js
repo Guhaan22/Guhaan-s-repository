@@ -20,4 +20,6 @@ function draw() {
     background("steelblue")
     noStroke()
     circle(ballX, ballY, ballSize)
+
+    ballX = bs
 }

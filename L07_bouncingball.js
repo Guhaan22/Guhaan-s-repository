@@ -25,6 +25,7 @@ if (keyIsDown(RIGHT_ARROW)) {// RIGHT_ARROW
 
 }
 if(xpos = width-25) {
+    xpos
    
 }
 }

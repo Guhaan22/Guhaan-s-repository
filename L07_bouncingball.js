@@ -25,7 +25,7 @@ function draw() {
     ballY = ballY + ballSpeedY
 
     if ( ballX > width-ballSize/2 ){
-        ballSpeedX = ballSpeedX * -1;
+        ballSpeedX = ballSpeedX * -1; // change direction
     }
     if (ballX < 0+ballSize/2) {
         ballSpeedX = ballSpeedX * -1; // change direction
